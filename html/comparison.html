@@ -1,11 +1,138 @@
-<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <meta charset="utf-8">
+    <title>U.S. Mass Shootings Analysis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+
+
 <body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">U.S Mass Shootings</a>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="plots">Plots <span class="caret"></span></a>
+                        <ul class="dropdown-menu" aria-labelledby="plots">
+                            <li><a href="country.html">Map of Mass Shootings</a></li>
+                            <li class="divider"></li>
+                            <li><a href="states.html">Victims by State</a></li>
+                            <li><a href="venue.html">Victims by Venue</a></li>
+                            <li><a href="year.html">Victims by Year</a></li>
+                            <li class="divider"></li>
+                            <li><a href="race.html">Shooter race</a></li>
+                            <li><a href="mental.html">Shooter mental health</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="comparison.html">Comparison</a>
+                    </li>
+                    <li>
+                        <a href="data.html">Data</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="page-header" id="banner">
+            <div class="row">
+                <div class="col-lg-8 col-md-7 col-sm-6">
+                    <h1>Analyis of Mass Shootings in US History</h1>
+                    <p class="lead">
+                        Gun violence is more commmon in the United States than any other country in the world.
+                        This project attempts to analyze Mass Shootings data to find patterns and paint a clear picture of the Mass Shootings scene
+                        in the United States.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bs-docs-section">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-header">
+                        <h1 id="typography">Comparison of Analyses</h1>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Blockquotes -->
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="bs-component">
+                        <p class="mb-0">Map of Mass Shootings</p>
+                        <img src="../plots/country.png" />
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bs-component">
+                        <p class="mb-0">Mass Shooting victims by State</p>
+                        <img src="../plots/states.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="bs-component">
+                        <p class="mb-0">Mass Shooting victims by Venue</p>
+                        <img src="../plots/venue.png" />
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bs-component">
+                        <p class="mb-0">Mass Shooting victims by Year</p>
+                        <img src="../plots/year.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="bs-component">
+                        <p class="mb-0">Shooter Profile by Race</p>
+                        <img src="../plots/race.png" />
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bs-component">
+                        <p class="mb-0">Shooter Profile by Mental Illness</p>
+                        <img src="../plots/mental.png" />
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <hr />
+        <footer>
+            <p>2018 - U.S. Mass Shootings Analysis</p>
+        </footer>
+    </div>
 
 </body>
 </html>
