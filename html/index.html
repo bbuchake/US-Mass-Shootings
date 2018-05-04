@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -56,7 +57,7 @@
     <div class="container">
         <div class="page-header" id="banner">
             <div class="row">
-                <div class="col-lg-8 col-md-7 col-sm-6">
+                <div class="col-lg-12 col-md-12 col-sm-6">
                     <h1>Analyis of Mass Shootings in US History</h1>
                     <p class="lead">Gun violence is more commmon in the United States than any other country in the world. 
                     This project attempts to analyze Mass Shootings data to find patterns and paint a clear picture of the Mass Shootings scene
@@ -70,7 +71,7 @@
             <!-- Headings -->
 
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4">
                     <div class="bs-component">
                         <h2>Links to Analyses</h2>
                         <p class="lead"><a href="country.html">Mass shootings map</a></p>
@@ -82,20 +83,25 @@
 
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-8 col-md-8">
                     <div class="bs-component">
-                        <h2>Example body text</h2>
-                        <p></p>
+                        <h2>Analyses</h2>
+                        <table class="table">
+                            <tr>
+                                <td><a href="country.html"><img class="thumbnail" src="../plots/country.png" /></a></td>
+                                <td><a href="states.html"><img class="thumbnail" src="../plots/states.png" /></a></td>
+                                <td><a href="year.html"><img class="thumbnail" src="../plots/year.png" /></a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="venue.html"><img class="thumbnail" src="../plots/venue.png" /></a></td>
+                                <td><a href="race.html"><img class="thumbnail" src="../plots/race.png" /></a></td>
+                                <td><a href="mental.html"><img class="thumbnail" src="../plots/mental.png" /></a></td>
+                            </tr>
+                        </table>
                     </div>
 
                 </div>
-                <div class="col-lg-4">
-                    <div class="bs-component">
-                        <h2>Emphasis classes</h2>
-                        <p></p>
-                    </div>
-
-                </div>
+                
             </div>
 
            
