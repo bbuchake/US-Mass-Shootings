@@ -1,17 +1,15 @@
-body
-{
-}
+
 
 .pie {
-    width: 50%;
+    width: 80%;
     height: auto;
     display: block;
 }
 .comp-img{
-    width:80%;
+    width:100%;
     height:auto;
 }
 .thumbnail {
-    width:300px;
+    width:250px;
     height:auto;
 }
